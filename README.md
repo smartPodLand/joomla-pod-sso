@@ -9,4 +9,4 @@ For setting configuration variables go to `System -> Global Configuration -> COM
 for using this component and other dependent one all configuration variables must be set.
 
 ## Usage
-Add a menu Item and choose its type POD SSO -> ورود با پاد. the menu item will handle login users from pod sso services. 
+Add a menu Item and choose its type `POD SSO -> ورود با پاد`. the menu item will handle login users from pod sso services. 
