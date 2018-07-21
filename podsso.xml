@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+
+    <name>Pod SSO</name>
+    <creationDate>June 2018</creationDate>
+    <author>Mehran Rahbardar</author>
+    <authorEmail>m.rahbardar@fanap.com</authorEmail>
+    <authorUrl>http://fanap.com</authorUrl>
+    <copyright>Fanap</copyright>
+    <license>License Info</license>
+    <version>1.0.0</version>
+    <description>A Component for POD SSO</description>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>podsso.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+    </files>
+
+    <administration>
+        <menu link='index.php?option=com_podsso'>Pod SSO</menu>
+        <files folder="admin">
+            <filename>index.html</filename>
+            <filename>podsso.php</filename>
+            <filename>config.xml</filename>
+        </files>
+    </administration>
+
+</extension>

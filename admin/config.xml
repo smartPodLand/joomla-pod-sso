@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fieldset label="Pod SSO" name="PODSSO">
+        <field name="sso_address" validate="url" type="url" label="SSO Adress" description="آدرس سرور SSO" hint="https://accounts.pod.land/oauth2"/>
+<field name="client_id" filter="safehtml" type="text" label="Client Id" description="شناسه مشتری" hint=""/>
+<field name="client_secret" filter="safehtml" type="text" label="Client Secret" description="رمز مشتری" hint=""/>
+<field name="platform_address" validate="url" type="url" label="Platform Address" description="سرور پلتفرم" hint="https://api.pod.land/srv/core"/>
+<field name="private_call_address" validate="url" type="url" label="Private Call Address" description="آدرس درخواست پرداخت" hint="https://pay.pod.land"/>
+<field name="api_token" filter="safehtml" type="text" label="Api Token" description="توکن Api" hint=""/>
+<field name="guild_code" filter="safehtml" type="text" label="Guild Code" description="کد صنف" hint="INFORMATION_TECHNOLOGY"/>
+    </fieldset>
+</config>
