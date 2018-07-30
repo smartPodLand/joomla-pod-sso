@@ -10,3 +10,5 @@ for using this component and other dependent one all configuration variables mus
 
 ## Usage
 Add a menu Item and choose its type `POD SSO -> ورود با پاد`. the menu item will handle login users from pod sso services. 
+
+for using a constant redirect url for sso, enable URL Rewriting in Joomla Global Configuration

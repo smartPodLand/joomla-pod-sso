@@ -2,7 +2,7 @@
 /**
  * @version     1.0
  * @package     com_podsso
- * @copyright   fanap
+ * @copyright   fanap.coms
  * @author     Mehran Rahbardar
  */
 // No direct access to this file
@@ -101,7 +101,6 @@ function podLogin($myApp, $code, $config)
 {
 	try
 	{
-
 		$url     = $config['sso'] . '/token/';
 		$ch      = curl_init($url);
 		$session = JFactory::getSession();
