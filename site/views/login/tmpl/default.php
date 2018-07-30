@@ -2,9 +2,8 @@
 /**
  * @version     1.0
  * @package     com_podsso
- * @copyright   Bahasht Gardeshgar Iranina Co.
- * @license     GPLv2 or later
- * @author      Eslam Taher dehrouieh
+ * @copyright   fanap
+ * @author     Mehran Rahbardar
  */
 // No direct access to this file
 defined('_JEXEC') or die('Restricted access');
